@@ -164,3 +164,29 @@ background-color: rgba(159, 95, 49, 0.784);
         width: 1.5em;
     }
  }
+ @media only screen and (max-width: 285px){
+    .foot{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        font-size: 8px;
+    }
+    .foot>div{
+        margin: .4em .4em;
+    } 
+    .navy ul li{
+        padding-right: 2px;
+        font-size: 6px;
+    }
+    .navy ul li:first-child{
+        padding-left: 2px;
+    } 
+    .archived{
+        font-size: 7px;
+    }  
+    .navy{
+        height: 1.6em;
+    }
+    .navy img{
+        width: .8em;
+    }
+ }
