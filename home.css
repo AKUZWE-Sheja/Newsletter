@@ -1,9 +1,3 @@
-/* font-family: 'Cookie', cursive;
-font-family: 'Dancing Script', cursive;
-font-family: 'Jost', sans-serif;
-font-family: 'Oswald', sans-serif;
-font-family: 'Roboto', sans-serif;
-font-family: 'Roboto Condensed', sans-serif; */
 @import url('https://fonts.googleapis.com/css2?family=Cookie&family=Dancing+Script&family=Jost&family=Oswald:wght@300&family=Roboto&family=Roboto+Condensed&display=swap');
 body {
     -webkit-user-select: none;
@@ -155,71 +149,19 @@ a{
     opacity: .1;
 }
 
-@media only screen and (max-width: 784px){
-    .side{
-        display: none;
+@media only screen and (max-width: 950px){
+    .sections ul li{
+        font-size: 6px;
     }
-    .main{
-        width: 100%;
-    }
-    .navy{
-        font-size: .8em;
-    }
-}
-@media only screen and (max-width: 650px){
-    .navy ul li:nth-child(4){
-        display: none;
-    }
-}
-@media only screen and (max-width: 555px){
     .navy ul li{
-        padding-right: 2em;
-        font-size: 1.6em;
+        font-size: 8px;
     }
 }
 @media only screen and (max-width: 424px){
-    body{
-        font-size: 1em;
+    .side{
+    display: none;
     }
     .navy ul li{
-        padding-right: .8em;
-    }
-}
-@media only screen and (max-width: 324px){
-    .navy ul{
-        display: block;
-    }
-    .navy{
-        height: 8em;
-    }
-    .navy ul li:nth-child(4){
-        display: block;
-    }
-    .navy ul li:first-child{
-        padding-left: 0;
-    }
-    .navy ul li{
-        padding-right: 0;
-    }
-}
-@media only screen and (max-width: 200px){
-    .head{
-        height: 4em;
-    }
-    .title{
-        display: flex;
-    }
-    #tea,#alert{
-        margin: .2em 0 0 .6em;
-        font-size: 1.4rem;
-    }
-    .head img{
-        display: none;
-    }
-    .navy{
-        display: none;
-    }
-    body{
-        font-size: 12px;
+        padding-right: .1em;
     }
 }
